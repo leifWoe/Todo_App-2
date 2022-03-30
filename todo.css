@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 20px;
+    cursor: default;
+}
+
+h1{
+
+}
+
+.container{
+    display: block;
+    width: 500px;
+}
+
+#input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#add{
+    padding: 0;
+    padding-bottom: 1 px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.todos{
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    text-decoration: line-through;
+}
+
+[contenteditable] {
+    outline: 0 solid transparent;
+}
+
+.checked{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
